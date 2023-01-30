@@ -8,9 +8,84 @@ body {
 
 .section {
   border: 2px solid red;
+  background-image:url(bgg.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+ @media only screen and (max-width: 768px) {
+  .section {
+    border: 2px solid red;
+    background-image:url(sbg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   }
 
 }
+.hed{
+  padding: 2.7rem 1.7px;
+}
 
+
+.hello{
+font-size: 2.7rem;
+}
+
+@media screen and (max-width: 768px){
+
+  .hello{
+    font-size:2rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 412px){
+
+  .hello{
+    font-size:1rem;
+  }
+
+  .hed{
+    padding: 0rem 0.2px;
+  }
+
+  .job{
+    font-size:0.3rem;
+    padding-bottom: 0.1rem;
+
+  }
+  .mail{
+    font-size: 0.2rem;
+    padding-top: 4px;
+  }
+  
+  
+  .hadtext {
+    /* border: 2px solid rgb(0, 0, 0); */
+  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding: 1px  50px
+  }
+  
+
+} 
+
+.job{
+  font-size: 1.7rem;
+  padding-bottom: 1.7rem;
+}
+@media screen and (max-width: 768px){
+
+  .job{
+    font-size:1rem;
+  }
+
+  .mail{
+    font-size: 0.7rem;
+    padding-top: 4px;
+  }
+}
 
 
 
@@ -19,57 +94,19 @@ body {
   border: 2px solid red;
 }
 
-/* .hidden {
-  color: #484848;
-  font-size: 50px;
-  font-weight: bold;
-  font-family: monospace;
-  letter-spacing: 7px;
-  cursor: pointer
-}
-
-.hidden span {
-  transition: .5s linear
-}
-
-.hidden:hover span:nth-child(1) {
-  margin-right: 5px
-}
-
-.hidden:hover span:nth-child(1):after {
-  content: "'";
-}
-
-.hidden:hover span:nth-child(2) {
-  margin-left: 30px
-}
-.hidden:hover span {
-  color: #fff;
-  text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff;
-} */
-
 .container {
   /* border:2px solid red; */
-  padding: 10rem 10rem;
+  padding: 10rem 5rem;
   display: flex;
   justify-content: center;
-
 }
 
 @media only screen and (max-width: 768px) {
   .container {
     border: 2px solid red;
-    padding: 50px 50px;
-
-
+    padding: 1rem 3rem;
   }
 }
-
-
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;571&display=swap');
 
@@ -83,6 +120,16 @@ body {
   background-size: 400%;
   color: #fff;
 }
+
+@media screen and (max-width: 768px){
+
+  .button{
+    height: 1.8rem;
+    background-size: 100%;
+    font-size: 1.2rem;
+  }
+}
+
 
 .button:hover::before {
   transform: scaleX(1);
@@ -120,10 +167,6 @@ body {
 }
 
 
-
-
-
-
 button {
   color: #090909;
 
@@ -152,13 +195,17 @@ button:hover {
 
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
+  padding: 34px 2px;
 }
 
 .inertext {
   border-bottom: 2px solid rgb(145, 145, 240);
+  padding-top: 1rem;
 }
 
-
+.summary{
+  padding-bottom:  4px;
+}
 
 .buttonn {
   border: 2px solid red;
@@ -181,30 +228,7 @@ button>svg {
   display: flex;
 }
 
-/* .buttonn:before {
-  content: "";
-  position: absolute;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  background: currentColor;
-  transition: transform 0.25s ease-out;
-} */
 
-/* .buttonn:hover:before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.buttonn .clone > *,button .text > * {
-  opacity: 1;
-  font-size: 1.3rem;
-  transition: 0.2s;
-  margin-left: 4px;
-} */
 
 .buttonn .clone>* {
   transform: translateY(60px);
@@ -354,7 +378,7 @@ transition: width .3s;
 .projectparent{
   display: grid;
   margin: 10px;
-  gap: 40px;
+  gap: 30px;
   padding: 2px;
   grid-template-columns: repeat(3,1fr);
 }
