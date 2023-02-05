@@ -2,20 +2,30 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(250, 247, 242)
+  background-color:#FFFFFF
+
 }
+
+
+
+
+
+
+
+
+
 
 
 .section {
   /* border: 2px solid red; */
-  background-image:url(sbg.png);
+  background-image:url(bg.jpg);
   background-repeat: no-repeat;
-  /* background-size: 100%; */
+  background-size: 100%;
 background-attachment: fixed;
-  height: 100vh;
+  /* height: 100vh; */
   /* width: 100vw; */
  }
-/*  @media only screen and (max-width: 768px) {
+ /* @media only screen and (max-width: 768px) {
   .section {
     border: 2px solid red;
     background-image:url(sbg.png);
@@ -29,8 +39,11 @@ background-attachment: fixed;
 }
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;571&display=swap');
+
 .hello{
 font-size: 2.7rem;
+font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (max-width: 768px){
@@ -202,8 +215,9 @@ button:hover {
 }
 
 .inertext {
-  border-bottom: 2px solid rgb(145, 145, 240);
-  padding-top: 1rem;
+  border-bottom: 2px solid rgb(136, 170, 243);
+  /* padding-top: 1rem; */
+  color: #173B6C;
 }
 
 .summary{
