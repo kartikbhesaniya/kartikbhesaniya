@@ -214,7 +214,7 @@ font-family: 'Montserrat', sans-serif;
 
 .container {
   /* border:2px solid red; */
-  padding: 10rem 5rem;
+ padding: 16rem 8rem;
   display: flex;
   justify-content: center;
 }
