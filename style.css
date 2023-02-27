@@ -362,7 +362,7 @@ a.google  {
 
 .img{
    border-radius: 8px;
-    /* height: 232px; */
+    height: 234px;
    
     margin-top: 18px;
 }
@@ -685,10 +685,7 @@ transition: width .3s;
   }
   
 }
-.img{
-  border-radius: 8px;
-/*   height: 232px; */
-}
+
 .projectchild:hover{
   /* box-shadow: 10px 0px 10px#898686; */
 }
